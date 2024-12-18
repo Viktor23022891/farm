@@ -20,7 +20,7 @@ body {
   width: auto;
 }
 
-h1 {
+h1.website-name {
   margin: 0;
   text-align: center;
   position: relative;
@@ -79,6 +79,7 @@ nav a {
   border-radius: 5px;
   transition: background-color 0.3s ease;
   display: block;
+  position: relative; /* Для позиціонування лінії під посиланням */
 }
 
 nav a:hover {
@@ -102,6 +103,7 @@ nav a:hover::after {
 
 nav a.active {
   color: #fff694;
+  background-color: #4caf50;
 }
 
 .social-media {
@@ -223,7 +225,7 @@ form button:hover {
     font-size: 200%;
     padding: 10px 20px;
   }
-  h1 {
+  h1.website-name {
     font-size: 200%;
   }
   .social-text {
@@ -240,7 +242,7 @@ form button:hover {
     font-size: 150%;
     padding: 8px 15px;
   }
-  h1 {
+  h1.website-name {
     font-size: 150%;
   }
   .social-text {
