@@ -288,6 +288,18 @@ form button:hover {
   transform: scale(1.01);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.highlight-text {
+  font-size: 1.1rem;
+  color: #012906;
+  text-align: center;
+}
+
+.highlight-text:hover {
+  transition: color 0.3s ease;
+  color: #1f5916;
+}
+
 /* ---------------------------- */
 @media (max-width: 768px) {
   nav ul {
